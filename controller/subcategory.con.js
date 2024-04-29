@@ -8,7 +8,7 @@ const subCatController = {
             const subcategory = await subCategoryModel.create(req.body)
             res.redirect('back')
         } catch (error) {
-            console.log(error)
+            console.log(error)   
         }
     },
     get: async (req, res) => {
